@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <title>Especificidade CSS</title>
     <style>
-        /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        p {
+            background-color: #aaa;
+        }
+        .observacao {
+            background-color: green;
+            border: dashed 5px;
+            padding: 20px;
+            font-size: 40px;
+        }
+
+        p.observacao {
+            background: linear-gradient(to right, red, yellow);
+        }
+
     </style>
 </head>
 
