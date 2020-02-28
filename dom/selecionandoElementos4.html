@@ -22,7 +22,22 @@
         <p>Fim</p>
     </div>
     <script>
-        // ...
+        function log(){
+            console.log(this);
+        }
+
+        HTMLAllCollection.prototype.log = log;
+        HTMLElement.prototype.log = log;
+        NodeList.prototype.log = log;
+
+        const lista = document.querySelector('div ul');
+         lista.log()
+         lista.parentNode.log();
+         lista.childNodes.log();
+
+         console.log(lista.children);
+         console.log(lista.firstElementChild)
+         console.log(lista.parentNode.previousSibling)
     </script>
 </body>
 
