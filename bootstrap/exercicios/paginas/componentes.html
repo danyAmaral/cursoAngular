@@ -109,18 +109,8 @@
 <hr>
 
 <!-- Slider -->
-
-
-<h1 class="mt-5">7. Accordion -
-    <small>
-        <a href="https://getbootstrap.com/docs/4.0/components/collapse/" target="_black">Documentação Oficial</a>
-    </small>
-</h1>
-<hr>
-
-<!-- Accordion -->
 <div>
-    <div class="carousel slide" id="slider" data-ride="carousel">
+    <div id="slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner bg-dark">
              <div class="carousel-item active">
                 <img src="/imgs/slide1.png" alt="Slide1" class="d-block mx-auto">
@@ -132,14 +122,55 @@
                 <img src="/imgs/slide3.png" alt="Slide3" class="d-block mx-auto">
             </div>
         </div>
-        <a href="#slider" class="carousel-control-prev" data0slide="prev">
+        <a href="#slider" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </a>
-        <a href="#slider" class="carousel-control-next" data0slide="next">
+        <a href="#slider" class="carousel-control-next" data-slide="next">
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
 </div>
+<h1 class="mt-5">7. Accordion -
+    <small>
+        <a href="https://getbootstrap.com/docs/4.0/components/collapse/" target="_black">Documentação Oficial</a>
+    </small>
+</h1>
+<hr>
+
+<!-- Accordion -->
+<div>
+    <div class="mb-5" id="accordion">
+        <div class="card">
+            <div id="pergunta1" class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#resposta1">
+                        Quem é o professor de programação mais legal?
+                    </button>
+                </h5>
+            </div>
+        </div>
+        <div id="resposta1" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Posso dizer? :)
+            </div>
+        </div>
+        <div class="card">
+            <div id="pergunta2" class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#resposta2">
+                       Qual cor preferida do Jorge?
+                    </button>
+                </h5>
+            </div>
+        </div>
+        <div id="resposta2" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Verde musgo!!
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
   $(document).ready(function() {
     console.log('a')
