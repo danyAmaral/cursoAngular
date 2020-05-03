@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Smartphone Samsung S10 E",
+      "price": 3000
+    },
+    {
+      "id": 3,
+      "name": "Notebook Dell",
+      "price": 5600
+    },
+    {
+      "id": 4,
+      "name": "Lápis Faber Castell",
+      "price": 34.9
+    },
+    {
+      "id": 5,
+      "name": "Caderno Ursinho Pooh",
+      "price": 23
+    },
+    {
+      "id": 6,
+      "name": "Kit Canetas BIC",
+      "price": 22.8
+    },
+    {
+      "id": 7,
+      "name": "Lapiseira 7.0",
+      "price": 12.75
+    },
+    {
+      "name": "ong mara",
+      "email": "mara@mara.com",
+      "whatsapp": "27 90908765",
+      "city": "maraaaaa",
+      "uf": "ES",
+      "id": 8
+    },
+    {
+      "name": "Caderno Capricho",
+      "price": "34.70",
+      "id": 9
+    }
+  ]
+}
