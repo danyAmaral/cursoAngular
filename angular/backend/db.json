@@ -47,6 +47,11 @@
       "name": "Caderno Capricho",
       "price": "34.70",
       "id": 9
+    },
+    {
+      "name": "iPad",
+      "price": "5000.80",
+      "id": 10
     }
   ]
 }
