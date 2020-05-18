@@ -36,22 +36,19 @@
       "price": 12.75
     },
     {
-      "name": "ong mara",
-      "email": "mara@mara.com",
-      "whatsapp": "27 90908765",
-      "city": "maraaaaa",
-      "uf": "ES",
-      "id": 8
-    },
-    {
       "name": "Caderno Capricho",
       "price": "34.70",
       "id": 9
     },
     {
       "name": "iPad",
-      "price": "5000.80",
+      "price": "4800",
       "id": 10
+    },
+    {
+      "name": "opa",
+      "price": "444",
+      "id": 11
     }
   ]
 }
